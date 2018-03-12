@@ -5,18 +5,26 @@ A triangulation network digital elevation model (DEM) viewer based on QT and Ope
 本程序三角网的生成采用了渐点插入算法（Bowyer-Watson算法），可以在特征点数量级的线性的时间内完成三角网的构建，即如果特征点个数增加一倍，耗时近似增加一倍。此算法相对于传统的三角网生成算法大大提升了效率。
 本程序使用Qt开源库实现了图形化用户界面，使用OpenGL和QT配合的库实现了三维地形表面的绘制。
 程序的界面如图1所示。
- 
+
+![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/1.png)
+
 图1 程序的界面
 
 程序共有三个视图
 1.	DEM Data Viewer，用于显示图像格式的DEM数据
 2.	DEM Triangulation Viewer，用于显示建立的DEM三角网
 3.	DEM 3D Viewer，用于显示
- 
+
+![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/2.png)
+
 图2 DEM Data Viewer视图
- 
+
+![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/3.png)
+
 图3 DEM Triangulation Viewer视图
- 
+
+![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/4.png)
+
 图4 DEM 3D Viewer视图
 
 程序主要功能包括：
