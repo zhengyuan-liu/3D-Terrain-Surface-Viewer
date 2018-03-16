@@ -8,7 +8,7 @@ A triangulation network digital elevation model (DEM) viewer based on QT and Ope
 
 ![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/1.png)
 
-图1 程序的界面
+<p align = "center">图1 程序的界面</p>
 
 程序共有三个视图
 1.	DEM Data Viewer，用于显示图像格式的DEM数据
@@ -17,32 +17,46 @@ A triangulation network digital elevation model (DEM) viewer based on QT and Ope
 
 ![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/2.png)
 
-图2 DEM Data Viewer视图
+<p align = "center">图2 DEM Data Viewer视图</p>
 
 ![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/3.png)
 
-图3 DEM Triangulation Viewer视图
+<p align = "center">图3 DEM Triangulation Viewer视图</p>
 
 ![Alt text](https://raw.githubusercontent.com/zhengyuan-liu/Triangulation-Network-DEM-Viewer/master/demo/4.png)
 
-图4 DEM 3D Viewer视图
+<p align = "center">图4 DEM 3D Viewer视图</p>
 
 程序主要功能包括：
+
 Open：打开一张DEM图像
+
 Exit：退出程序
+
 Extract Topographic Features：在打开DEM图像后，可以提取地形特征点
+
 Create Triangulation：在提取地形特征点之后，可以构建三角网
+
 Show 3D DEM：显示三维地形高程表面
 
 在DEM 3D Viewer视图中键盘按键的功能：
+
 ↑：向前漫游
+
 ↓：向后漫游
+
 ←：向左转向
+
 →：向右转向
+
 W: 向上移动视点
+
 S: 向下移动视点
+
 Space: 旋转/停止旋转（默认）间切换
+
 L: 在绘制填充多边形（默认）和绘制多边形线之间切换
+
 G: 在绘制格网DEM（默认）和绘制三角网DEM之间切换（注：在三角网未生成前使用切换键无效）
 
 在data文件夹中有3幅DEM图像，可用于程序测试用。
