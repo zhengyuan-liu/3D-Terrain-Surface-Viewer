@@ -1,5 +1,5 @@
-# Triangulation-Network-DEM-Viewer
-A 3D terrain surface renderer and viewer based on Qt and OpenGL which can read digital elevation model (DEM) data, extract topographic feature points, build triangulation network DEM model, draw and render 3D terrain surface based on grid or triangulation network model; viewpoint can roam on the terrain surface
+# 3D-Terrain-Surface-Viewer
+A 3D terrain surface renderer and viewer based on Qt and OpenGL which can read digital elevation model (DEM) data, extract topographic feature points, build triangulation network DEM model, draw and render 3D terrain surface based on grid DEM model or triangulation network DEM model; viewpoint can roam on the terrain surface
 
 本程序的主要功能是读入地形图像，提取地形特征点，建立三角网DEM（数字高程模型），并依据格网DEM和三角网DEM绘制三维地形表面，并可在三维地形表面上进行视点移动/漫游。
 
